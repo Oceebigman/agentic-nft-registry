@@ -1,0 +1,8 @@
+{
+  "name": "Public Agentic NFT Registry",
+  "version": "1.0.0",
+  "chainId": 56,
+  "network": "BNB Smart Chain Mainnet",
+  "registryUrl": "https://raw.githubusercontent.com/Oceebigman/agentic-nft-registry/main/registry/collections.json",
+  "documentationUrl": "https://github.com/Oceebigman/agentic-nft-registry/blob/main/registry/README.md"
+}
