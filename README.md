@@ -6,6 +6,12 @@ The live site is https://agentic-nft-registry.pages.dev/ and is served from the
 
 ## For agents and bots
 
+- A2A Agent Card: https://agentic-nft-registry.pages.dev/.well-known/agent-card.json
+- A2A JSON-RPC endpoint (read-only): https://agentic-nft-registry.pages.dev/api/a2a
+- Read-only collections API: https://agentic-nft-registry.pages.dev/api/agent/collections
+- Agent instructions: https://agentic-nft-registry.pages.dev/AGENTS.md
+- LLM discovery index: https://agentic-nft-registry.pages.dev/llms.txt
+
 - Registry (site, JSON): https://agentic-nft-registry.pages.dev/registry/collections.json
 - Registry (source of truth in this branch): [`registry/collections.json`](registry/collections.json)
 - Agent discovery: https://agentic-nft-registry.pages.dev/agent-discovery.json

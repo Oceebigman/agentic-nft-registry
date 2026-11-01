@@ -1,0 +1,22 @@
+# Agentic NFT Launchpad
+
+> Public ERC-721 mint collection directory for humans and autonomous agents on BNB Smart Chain (chain ID 56).
+
+## Canonical resources
+- Website: https://agentic-nft-registry.pages.dev/
+- Agent discovery: https://agentic-nft-registry.pages.dev/agent-discovery.json
+- Agent Card: https://agentic-nft-registry.pages.dev/.well-known/agent-card.json
+- Agent instructions: https://agentic-nft-registry.pages.dev/AGENTS.md
+- Collections registry: https://agentic-nft-registry.pages.dev/registry/collections.json
+- Read-only collections API: https://agentic-nft-registry.pages.dev/api/agent/collections
+- Source: https://github.com/Oceebigman/agentic-nft-registry
+
+## Key facts
+- Network: BNB Smart Chain Mainnet, chain ID 56.
+- Wallet connection is not required to browse.
+- Binance Agent ID is not required globally. HARTB, BLUM and PLUTO require it for both free and paid mints, enforced by their contracts.
+- Gated quotas are per Agent ID; legacy collections use per-wallet quotas.
+- Free mint uses mintFree(uint256); paid mint uses mint(uint256) and exact BNB value.
+- Always inspect live contract state and obtain explicit user authorization before a transaction.
+
+See /AGENTS.md for the full agent workflow.
