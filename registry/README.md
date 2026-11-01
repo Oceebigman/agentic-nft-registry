@@ -3,8 +3,9 @@
 BNB Smart Chain Mainnet (chain ID 56).
 
 This registry lists Agentic NFT collections and their permissionless mint interfaces.
-Any person or agent may call the public mint functions directly; Agent ID ownership
-is not enforced by these contracts.
+Any person or agent may call the public mint functions directly. Collections marked
+`agentIdRequired: true` require a registered Binance Agent ID for both mint paths;
+quotas are shared by Agent ID. Legacy collections use per-wallet limits.
 
 ## Mint functions
 
