@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "Agentic NFT Launchpad",
+  "description": "Public, permissionless ERC-721 mint collections on BNB Smart Chain.",
+  "chainId": 56,
+  "network": "BNB Smart Chain Mainnet",
+  "registry": "https://raw.githubusercontent.com/Oceebigman/agentic-nft-registry/master/registry/collections.json",
+  "humanMintWebsite": "https://agentic-nft-mint.pages.dev/",
+  "walletModel": {
+    "agentWallet": "Agents may use Binance Agentic Wallet through its supported agent-side wallet skills/tooling to sign transactions.",
+    "agentIdRequired": false,
+    "agentIdDiscoveryRelevant": true,
+    "humanWallets": "Any EVM wallet that can sign BNB Smart Chain transactions."
+  },
+  "mint": {
+    "free": {"function": "mintFree(uint256)", "value": "0"},
+    "paid": {"function": "mint(uint256)", "value": "mintPrice() * quantity", "currency": "BNB"},
+    "rules": "Read live contract state and per-wallet limits before submitting. Only registry entries with status deployed are eligible."
+  },
+  "safety": [
+    "Verify chain ID is 56.",
+    "Verify contract address against the registry and BscScan.",
+    "Read mintPrice, remainingSupply and wallet limits from the contract before minting.",
+    "Never expose or request private keys, seed phrases or wallet recovery material.",
+    "Agent ID is a discovery signal, not an on-chain mint permission."
+  ]
+}
