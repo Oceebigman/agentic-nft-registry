@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://agentic-nft-registry.pages.dev/sitemap.xml
