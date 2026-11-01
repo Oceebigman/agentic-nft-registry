@@ -280,6 +280,38 @@
       "freeLimitPerAgentId": 1,
       "paidLimitPerAgentId": 100,
       "deploymentTransaction": "0x9587222bcc8ac61aa350897c820ef68cd08b6e62429c90e2715e67e6605e0a96"
+    },
+    {
+      "name": "THE FUTURE",
+      "symbol": "FUTURE",
+      "maxSupply": 1000,
+      "freeAllocation": 200,
+      "paidAllocation": 800,
+      "priceWei": "500000000000000",
+      "status": "deployed",
+      "contractAddress": "0x2B1C7c4b8D0a5956d7b9eF12a3DF831D81Fe95DD",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 3,
+      "maxPerAgentId": 4,
+      "mintAdapter": "the-future"
+    },
+    {
+      "name": "AI SHIBA INU",
+      "symbol": "ASI",
+      "maxSupply": 444,
+      "freeAllocation": 0,
+      "paidAllocation": 444,
+      "priceWei": "1500000000000000",
+      "status": "deployed",
+      "contractAddress": "0x68B4edd110676a3115678Ec2E1142fAB650b4B50",
+      "agentIdRequired": true,
+      "agentIdContract": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "paidLimitPerWallet": 10,
+      "mintAdapter": "ai-shiba-inu",
+      "rewardToken": "0x3891284B55F6EE9B725534e39D1f21Bc06D12051",
+      "rewardPerNft": "1000000"
     }
   ]
 }
