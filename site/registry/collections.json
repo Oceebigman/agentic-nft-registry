@@ -1,6 +1,6 @@
 {
   "protocol": "Public Agent NFT Mint Registry",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "chainId": 56,
   "network": "BNB Smart Chain Mainnet",
   "mintFunctions": {
@@ -140,10 +140,13 @@
       "maxSupply": 1000,
       "freeAllocation": 200,
       "paidAllocation": 800,
-      "freeLimitPerWallet": 1,
-      "paidLimitPerWallet": 5,
       "priceWei": "150000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x1C6a40845dD4e4bE7762153E24CBEd35d7D7d6e3",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 5
     },
     {
       "name": "BLUM",
@@ -151,10 +154,13 @@
       "maxSupply": 2000,
       "freeAllocation": 300,
       "paidAllocation": 1700,
-      "freeLimitPerWallet": 2,
-      "paidLimitPerWallet": 8,
       "priceWei": "100000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x156978860a2AB9A8a75603327A06AD5258c752b2",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 8
     },
     {
       "name": "PLUTO",
@@ -162,10 +168,13 @@
       "maxSupply": 3333,
       "freeAllocation": 1111,
       "paidAllocation": 2222,
-      "freeLimitPerWallet": 2,
-      "paidLimitPerWallet": 10,
       "priceWei": "300000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x5cb59A8D8E9DE5FDf39C709324B4c86AB90F534B",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 10
     },
     {
       "name": "AUTONOMOUS APE",
