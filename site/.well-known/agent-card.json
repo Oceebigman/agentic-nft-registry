@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "Agentic NFT Launchpad",
+  "description": "Agent-facing discovery and read-only collection directory for public ERC-721 NFT mints on BNB Smart Chain.",
+  "url": "https://agentic-nft-registry.pages.dev/",
+  "version": "1.1.0",
+  "documentationUrl": "https://agentic-nft-registry.pages.dev/AGENTS.md",
+  "capabilities": {"streaming":false,"pushNotifications":false,"stateTransitionHistory":false},
+  "defaultInputModes":["text/plain","application/json"],
+  "defaultOutputModes":["text/plain","application/json"],
+  "skills":[
+    {"id":"discover-nft-collections","name":"Discover NFT collections","description":"Find deployed ERC-721 collections on BNB Smart Chain, including collections with Binance Agent ID requirements.","tags":["NFT","BNB Chain","ERC-721","Binance Agent ID","mint","discovery"],"examples":["Find live NFT collections that require a Binance Agent ID","Show deployed collections and their mint prices"]},
+    {"id":"inspect-mint-rules","name":"Inspect mint rules","description":"Read collection registry metadata and explain free/paid allocations, mint functions, and wallet- or Agent-ID-based quotas.","tags":["mint rules","eligibility","Agent ID","quotas"]}
+  ],
+  "extensions":[],
+  "provider":{"organization":"Oceebigman","url":"https://github.com/Oceebigman/agentic-nft-registry"},
+  "security":[],
+  "x-discovery":{"registryUrl":"https://agentic-nft-registry.pages.dev/registry/collections.json","readOnlyCollectionsApi":"https://agentic-nft-registry.pages.dev/api/agent/collections","binanceAgentId":"https://web3.binance.com/agent-id","chainId":56}
+}
