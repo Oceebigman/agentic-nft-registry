@@ -1,4 +1,4 @@
-const REGISTRY='https://raw.githubusercontent.com/Oceebigman/agentic-nft-registry/master/registry/collections.json';
+const REGISTRY='./registry/collections.json';
 const RPCS=['https://bsc-rpc.publicnode.com','https://bsc-dataseed.binance.org/'];
 const CHAIN_ID='0x38';
 const ABI=[
