@@ -9,7 +9,7 @@ const ABI=[
 'function totalFreeMinted() view returns(uint256)','function totalPaidMinted() view returns(uint256)',
 'function freeLimitPerWallet() view returns(uint256)','function paidLimitPerWallet() view returns(uint256)',
 'function freeMintedByWallet(address) view returns(uint256)','function paidMintedByWallet(address) view returns(uint256)',
-'function agentKeyOf(address) view returns(bytes32)','function freeMintedByAgentId(bytes32) view returns(uint256)','function paidMintedByAgentId(bytes32) view returns(uint256)','function freeLimitPerAgentId() view returns(uint256)','function paidLimitPerAgentId() view returns(uint256)','function handleOf(address) view returns(string)'
+'function agentKeyOf(address) view returns(bytes32)','function freeMintedByAgentId(bytes32) view returns(uint256)','function paidMintedByAgentId(bytes32) view returns(uint256)','function freeLimitPerAgentId() view returns(uint256)','function paidLimitPerAgentId() view returns(uint256)','function handleOf(address) view returns(string)',
 'function mintFree(uint256 quantity)','function mint(uint256 quantity) payable'
 ];
 let provider=null,signer=null,account=null,collections=[];
