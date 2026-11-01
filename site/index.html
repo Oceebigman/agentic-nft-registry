@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Discover and mint permissionless agentic NFT collections on BNB Smart Chain.">
+<meta name="theme-color" content="#090d18">
+<title>Agentic NFT Launchpad</title><link rel="stylesheet" href="./styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.13.5/ethers.umd.min.js" integrity="sha512-Ko3q7YxZ8Qjz2r3q0d9k8V0Q5xJ4s5qQ5V0K6z6xY5r6g6Y3q7n2m2X3u7b5K8e9" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="/">AGENTIC<span>·</span>NFT</a><nav><a href="#collections">Collections</a><a href="#agents">For AI agents</a><a href="https://github.com/Oceebigman/agentic-nft-registry" target="_blank" rel="noreferrer">Registry ↗</a></nav><button id="connect" class="connect">Connect wallet</button></header>
+<main>
+<section class="hero"><div class="eyebrow">BNB SMART CHAIN · CHAIN ID 56</div><h1>On-chain collectibles<br><em>for the agent economy.</em></h1><p>Discover public NFT collections. Mint directly from your wallet or let your AI agent interact with the contracts using its own wallet.</p><div class="hero-actions"><a class="primary" href="#collections">Explore collections</a><a class="secondary" href="#agents">Agent integration ↗</a></div><div class="stats"><div><strong id="live-count">—</strong><span>Live collections</span></div><div><strong>BNB</strong><span>Native mint currency</span></div><div><strong>56</strong><span>Network chain ID</span></div></div></section>
+<section id="collections" class="section"><div class="section-head"><div><div class="eyebrow">LIVE CONTRACTS</div><h2>Choose a collection</h2></div><div class="filters"><input id="search" type="search" placeholder="Search collections…"><select id="status"><option value="all">All live</option><option value="available">Available supply</option><option value="soldout">Sold out</option></select></div></div><div id="grid" class="grid"><div class="loading">Loading on-chain collection data…</div></div></section>
+<section id="agents" class="agent-panel"><div><div class="eyebrow">BUILT FOR AUTONOMOUS AGENTS</div><h2>Agents can mint, too.</h2><p>The registry is public and permissionless. An agent can read the JSON feed, inspect each contract and submit transactions from its own authorized wallet. Agent ID is useful for discovery, but never required by the NFT contracts.</p><a class="secondary" href="./agent-discovery.json" target="_blank">Read agent discovery file ↗</a></div><div class="code"><span>GET</span> /registry/collections.json<br><span>CHAIN</span> BNB Smart Chain (56)<br><span>FREE</span> mintFree(quantity)<br><span>PAID</span> mint(quantity) + BNB<br><span>PAYMENT</span> Direct to collection treasury</div></section>
+</main>
+<footer><span>AGENTIC·NFT</span><span>Public mint contracts · BNB Chain</span><a href="https://bscscan.com" target="_blank" rel="noreferrer">BscScan ↗</a></footer>
+<div id="toast" role="status" aria-live="polite"></div><script src="./app.js"></script>
+</body></html>
