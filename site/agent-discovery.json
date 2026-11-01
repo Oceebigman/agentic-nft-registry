@@ -1,36 +1,49 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "name": "Agentic NFT Launchpad",
-  "description": "Public, permissionless ERC-721 mint collections on BNB Smart Chain.",
-  "chainId": 56,
-  "network": "BNB Smart Chain Mainnet",
-  "registry": "https://raw.githubusercontent.com/Oceebigman/agentic-nft-registry/master/registry/collections.json",
-  "humanMintWebsite": "https://agentic-nft-registry.pages.dev/",
-  "agentDiscovery": "https://agentic-nft-registry.pages.dev/agent-discovery.json",
-  "walletModel": {
-    "agentWallet": "Agents may use Binance Agentic Wallet through its supported agent-side wallet skills/tooling to sign transactions.",
-    "agentIdRequired": false,
-    "agentIdDiscoveryRelevant": true,
-    "humanWallets": "Any EVM wallet that can sign BNB Smart Chain transactions."
+  "description": "Public, permissionless ERC-721 mint launchpad for humans and autonomous agents on BNB Smart Chain.",
+  "website": "https://agentic-nft-registry.pages.dev/",
+  "chain": {"namespace":"eip155","chainId":56,"name":"BNB Smart Chain Mainnet","currency":"BNB"},
+  "discovery": {
+    "agentCard": "https://agentic-nft-registry.pages.dev/.well-known/agent-card.json",
+    "agentInstructions": "https://agentic-nft-registry.pages.dev/AGENTS.md",
+    "llms": "https://agentic-nft-registry.pages.dev/llms.txt",
+    "registry": "https://agentic-nft-registry.pages.dev/registry/collections.json",
+    "collectionsApi": "https://agentic-nft-registry.pages.dev/api/agent/collections",
+    "wellKnown": "https://agentic-nft-registry.pages.dev/.well-known/agent-discovery.json"
+  },
+  "identity": {
+    "binanceAgentId": {
+      "discoveryRelevant": true,
+      "requiredGlobally": false,
+      "registryAddress": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "lookup": "handleOf(address)",
+      "note": "Only collections explicitly marked agentIdRequired enforce Binance Agent ID eligibility. Agent ID discovery metadata does not itself grant permission."
+    },
+    "erc8004": {"supported": false, "note": "The launchpad has not yet registered a service-agent identity on BNB Chain ERC-8004."}
+  },
+  "wallets": {
+    "humanWallets": "Any EVM wallet able to sign BNB Smart Chain transactions.",
+    "agentWallets": "An autonomous agent may use a wallet it is authorized to control, including Binance Agentic Wallet through supported agent-side tooling. Never request or expose private keys or recovery phrases."
   },
   "mint": {
-    "free": {
-      "function": "mintFree(uint256)",
-      "value": "0"
-    },
-    "paid": {
-      "function": "mint(uint256)",
-      "value": "mintPrice() * quantity",
-      "currency": "BNB"
-    },
-    "rules": "Read live contract state and per-wallet limits before submitting. Only registry entries with status deployed are eligible. A collection whose free allocation is exhausted is free-sold-out even if paid supply remains."
+    "free": {"function":"mintFree(uint256 quantity)","value":"0"},
+    "paid": {"function":"mint(uint256 quantity)","value":"mintPrice() * quantity","currency":"BNB"},
+    "rules": [
+      "Only entries with status deployed and a contractAddress are eligible.",
+      "Read current on-chain state and limits before preparing a transaction.",
+      "Legacy collections enforce wallet-based limits.",
+      "HARTB, BLUM and PLUTO require a registered Binance Agent ID for free and paid mints; quotas are shared by Agent ID.",
+      "A collection whose free allocation is exhausted is free-sold-out even if paid supply remains."
+    ],
+    "transactionPolicy": "The agent must obtain explicit wallet-owner authorization before submitting any transaction."
   },
   "safety": [
-    "Verify chain ID is 56.",
-    "Verify contract address against the registry and BscScan.",
-    "Read mintPrice, remainingSupply and wallet limits from the contract before minting.",
+    "Verify chain ID 56 and contract bytecode.",
+    "Verify the contract address against the live registry and BscScan.",
+    "Read mint price, allocation, remaining supply and the applicable wallet or Agent-ID quota before minting.",
     "Never expose or request private keys, seed phrases or wallet recovery material.",
-    "Agent ID is a discovery signal, not an on-chain mint permission."
-  ],
-  "siteRegistry": "https://agentic-nft-registry.pages.dev/registry/collections.json"
+    "Do not infer Binance Agent ID ownership from an agent's name; verify handleOf(wallet) on-chain.",
+    "Never submit a mint transaction without explicit user authorization."
+  ]
 }
