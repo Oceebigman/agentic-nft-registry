@@ -1,0 +1,38 @@
+{
+  "protocol": "Public Agent NFT Mint Registry",
+  "version": "1.0.0",
+  "chainId": 56,
+  "network": "BNB Smart Chain Mainnet",
+  "mintFunctions": {
+    "free": {
+      "signature": "mintFree(uint256)",
+      "payable": false
+    },
+    "paid": {
+      "signature": "mint(uint256)",
+      "payable": true
+    }
+  },
+  "collections": [
+    {"name":"AI WIF","symbol":"AWIF","maxSupply":10000,"freeAllocation":500,"paidAllocation":9500,"freeLimitPerWallet":2,"paidLimitPerWallet":50,"priceWei":"50000000000000","status":"deployed","contractAddress":"0x075A78436f0964959e5E60B7E0eFEf66f7746909"},
+    {"name":"AI CATZZ","symbol":"CATZZ","maxSupply":5555,"freeAllocation":1111,"paidAllocation":4444,"freeLimitPerWallet":1,"paidLimitPerWallet":5,"priceWei":"130000000000000","status":"deployed","contractAddress":"0x8aB15aE9291569d28081e376cA6D1678F2426E41"},
+    {"name":"BINANCE GTV","symbol":"BGTV","maxSupply":2222,"freeAllocation":300,"paidAllocation":1922,"freeLimitPerWallet":2,"paidLimitPerWallet":5,"priceWei":"200000000000000","status":"deployed","contractAddress":"0xf51fA8134c3945cdfa99291E9c79C2B8B82602df"},
+    {"name":"AGENTIC PUNK","symbol":"PUNK","maxSupply":6769,"freeAllocation":1000,"paidAllocation":5769,"freeLimitPerWallet":1,"paidLimitPerWallet":50,"priceWei":"50000000000000","status":"deployed","contractAddress":"0xC05d1e298d589A5f3445e035d9Bf306f1b58c547"},
+    {"name":"MUMU","symbol":"MUMU","maxSupply":4069,"freeAllocation":69,"paidAllocation":4000,"freeLimitPerWallet":1,"paidLimitPerWallet":15,"priceWei":"120000000000000","status":"deployed","contractAddress":"0xC7f4d4F2a79e32DA1DE61A06EDB9DaaA33E6e874"},
+    {"name":"JERVENT 2.0","symbol":"JERVENT","maxSupply":1000,"freeAllocation":100,"paidAllocation":900,"freeLimitPerWallet":3,"paidLimitPerWallet":10,"priceWei":"120000000000000","status":"pending_deployment"},
+    {"name":"KRT","symbol":"KRT","maxSupply":9999,"freeAllocation":999,"paidAllocation":9000,"freeLimitPerWallet":1,"paidLimitPerWallet":9,"priceWei":"93000000000000","status":"pending_deployment"},
+    {"name":"ANTZ","symbol":"ANTZ","maxSupply":7000,"freeAllocation":1000,"paidAllocation":6000,"freeLimitPerWallet":2,"paidLimitPerWallet":10,"priceWei":"200000000000000","status":"pending_deployment"},
+    {"name":"KFC","symbol":"KFC","maxSupply":6000,"freeAllocation":2000,"paidAllocation":4000,"freeLimitPerWallet":2,"paidLimitPerWallet":8,"priceWei":"80000000000000","status":"pending_deployment"},
+    {"name":"AGENTIC PEPE","symbol":"APEPE","maxSupply":8000,"freeAllocation":3000,"paidAllocation":5000,"freeLimitPerWallet":2,"paidLimitPerWallet":5,"priceWei":"120000000000000","status":"pending_deployment"},
+    {"name":"HARTB","symbol":"HARTB","maxSupply":1000,"freeAllocation":200,"paidAllocation":800,"freeLimitPerWallet":1,"paidLimitPerWallet":5,"priceWei":"150000000000000","status":"pending_deployment"},
+    {"name":"BLUM","symbol":"BLUM","maxSupply":2000,"freeAllocation":300,"paidAllocation":1700,"freeLimitPerWallet":2,"paidLimitPerWallet":8,"priceWei":"100000000000000","status":"pending_deployment"},
+    {"name":"PLUTO","symbol":"PLUTO","maxSupply":3333,"freeAllocation":1111,"paidAllocation":2222,"freeLimitPerWallet":2,"paidLimitPerWallet":10,"priceWei":"300000000000000","status":"pending_deployment"},
+    {"name":"AUTONOMOUS APE","symbol":"AAPE","maxSupply":5000,"freeAllocation":1500,"paidAllocation":3500,"freeLimitPerWallet":2,"paidLimitPerWallet":10,"priceWei":"230000000000000","status":"pending_deployment"},
+    {"name":"DDG","symbol":"DDG","maxSupply":10000,"freeAllocation":500,"paidAllocation":9500,"freeLimitPerWallet":2,"paidLimitPerWallet":10,"priceWei":"90000000000000","status":"pending_deployment"},
+    {"name":"PLUGGINS","symbol":"PLUGGINS","maxSupply":100000,"freeAllocation":2000,"paidAllocation":98000,"freeLimitPerWallet":10,"paidLimitPerWallet":100,"priceWei":"15000000000000","status":"pending_deployment"},
+    {"name":"HATERZ","symbol":"HATERZ","maxSupply":10000,"freeAllocation":2000,"paidAllocation":8000,"freeLimitPerWallet":2,"paidLimitPerWallet":10,"priceWei":"120000000000000","status":"pending_deployment"},
+    {"name":"MAGA","symbol":"MAGA","maxSupply":20000,"freeAllocation":500,"paidAllocation":19500,"freeLimitPerWallet":2,"paidLimitPerWallet":18,"priceWei":"80000000000000","status":"pending_deployment"},
+    {"name":"JTSK","symbol":"JTSK","maxSupply":4444,"freeAllocation":1111,"paidAllocation":3333,"freeLimitPerWallet":2,"paidLimitPerWallet":15,"priceWei":"90000000000000","status":"pending_deployment"},
+    {"name":"YPPE","symbol":"YPPE","maxSupply":100000,"freeAllocation":10000,"paidAllocation":90000,"freeLimitPerWallet":10,"paidLimitPerWallet":100,"priceWei":"15000000000000","status":"pending_deployment"}
+  ]
+}

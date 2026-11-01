@@ -1,0 +1,10 @@
+[
+  {"type":"function","name":"name","stateMutability":"view","inputs":[],"outputs":[{"type":"string"}]},
+  {"type":"function","name":"symbol","stateMutability":"view","inputs":[],"outputs":[{"type":"string"}]},
+  {"type":"function","name":"owner","stateMutability":"view","inputs":[],"outputs":[{"type":"address"}]},
+  {"type":"function","name":"maxSupply","stateMutability":"view","inputs":[],"outputs":[{"type":"uint256"}]},
+  {"type":"function","name":"totalMinted","stateMutability":"view","inputs":[],"outputs":[{"type":"uint256"}]},
+  {"type":"function","name":"remainingSupply","stateMutability":"view","inputs":[],"outputs":[{"type":"uint256"}]},
+  {"type":"function","name":"mintFree","stateMutability":"nonpayable","inputs":[{"name":"quantity","type":"uint256"}],"outputs":[]},
+  {"type":"function","name":"mint","stateMutability":"payable","inputs":[{"name":"quantity","type":"uint256"}],"outputs":[]}
+]
