@@ -33,7 +33,7 @@
       "Only entries with status deployed and a contractAddress are eligible.",
       "Read current on-chain state and limits before preparing a transaction.",
       "Legacy collections enforce wallet-based limits.",
-      "HARTB, BLUM and PLUTO require a registered Binance Agent ID for free and paid mints; quotas are shared by Agent ID.",
+      "Collections marked agentIdRequired require a registered Binance Agent ID for free and paid mints; quotas are shared by Agent ID.",
       "A collection whose free allocation is exhausted is free-sold-out even if paid supply remains."
     ],
     "transactionPolicy": "The agent must obtain explicit wallet-owner authorization before submitting any transaction."

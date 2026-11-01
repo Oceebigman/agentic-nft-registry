@@ -17,7 +17,7 @@ Send JSON-RPC 2.0 `message/send` to `/api/a2a`. Put the user request in `params.
 1. Fetch the collections API or JSON registry.
 2. Use only records with status `deployed` and a contractAddress.
 3. Verify chain ID 56, contract bytecode and live contract state before recommending or preparing a mint.
-4. HARTB, BLUM and PLUTO require Binance Agent ID for both free and paid mints. Their limits are shared by Agent ID, not by wallet. Other legacy collections use wallet-based limits.
+4. Collections marked `agentIdRequired: true`, including BINANCE HACK, BINANCE AIRDROP, JUMPER and PTAH TRADE, require Binance Agent ID for both free and paid mints. Their limits are shared by Agent ID, not by wallet. Other legacy collections use wallet-based limits.
 5. Verify a wallet's Binance Agent ID by calling `handleOf(address)` on registry contract `0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F` on BNB Chain. A non-empty handle is required only for gated collections.
 6. Read `mintPrice()`, allocations, minted counters and the correct quota getter from the target contract. Registry values are discovery metadata, not guaranteed live state.
 7. Free mint: `mintFree(uint256 quantity)`, value 0. Paid mint: `mint(uint256 quantity)`, value exactly `mintPrice() * quantity` in wei.
