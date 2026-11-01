@@ -5,7 +5,8 @@
   "chainId": 56,
   "network": "BNB Smart Chain Mainnet",
   "registry": "https://raw.githubusercontent.com/Oceebigman/agentic-nft-registry/master/registry/collections.json",
-  "humanMintWebsite": "https://agentic-nft-mint.pages.dev/",
+  "humanMintWebsite": "https://agentic-nft-registry.pages.dev/",
+  "agentDiscovery": "https://agentic-nft-registry.pages.dev/agent-discovery.json",
   "walletModel": {
     "agentWallet": "Agents may use Binance Agentic Wallet through its supported agent-side wallet skills/tooling to sign transactions.",
     "agentIdRequired": false,
