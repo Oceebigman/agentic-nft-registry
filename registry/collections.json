@@ -1,6 +1,6 @@
 {
   "protocol": "Public Agent NFT Mint Registry",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "chainId": 56,
   "network": "BNB Smart Chain Mainnet",
   "mintFunctions": {
@@ -83,7 +83,8 @@
       "freeLimitPerWallet": 3,
       "paidLimitPerWallet": 10,
       "priceWei": "120000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x3c1105623F17D59F1910De7f60c21D539e035261"
     },
     {
       "name": "KRT",
@@ -94,7 +95,8 @@
       "freeLimitPerWallet": 1,
       "paidLimitPerWallet": 9,
       "priceWei": "93000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x9211A87ca6126D05cFA5930C091d7aA6108B9FE8"
     },
     {
       "name": "ANTZ",
@@ -105,7 +107,8 @@
       "freeLimitPerWallet": 2,
       "paidLimitPerWallet": 10,
       "priceWei": "200000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x3C2E5E9013A5e02e820A86a69143cE8a5c868612"
     },
     {
       "name": "KFC",
@@ -116,7 +119,8 @@
       "freeLimitPerWallet": 2,
       "paidLimitPerWallet": 8,
       "priceWei": "80000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x75dD81De370A55E99b3eFD799d7C4e3cD5A79B64"
     },
     {
       "name": "AGENTIC PEPE",
@@ -127,7 +131,8 @@
       "freeLimitPerWallet": 2,
       "paidLimitPerWallet": 5,
       "priceWei": "120000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x2F64ff2dc5EA2F000100AC5D0efBe96d9943870F"
     },
     {
       "name": "HARTB",
@@ -135,10 +140,13 @@
       "maxSupply": 1000,
       "freeAllocation": 200,
       "paidAllocation": 800,
-      "freeLimitPerWallet": 1,
-      "paidLimitPerWallet": 5,
       "priceWei": "150000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x1C6a40845dD4e4bE7762153E24CBEd35d7D7d6e3",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 5
     },
     {
       "name": "BLUM",
@@ -146,10 +154,13 @@
       "maxSupply": 2000,
       "freeAllocation": 300,
       "paidAllocation": 1700,
-      "freeLimitPerWallet": 2,
-      "paidLimitPerWallet": 8,
       "priceWei": "100000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x156978860a2AB9A8a75603327A06AD5258c752b2",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 8
     },
     {
       "name": "PLUTO",
@@ -157,10 +168,13 @@
       "maxSupply": 3333,
       "freeAllocation": 1111,
       "paidAllocation": 2222,
-      "freeLimitPerWallet": 2,
-      "paidLimitPerWallet": 10,
       "priceWei": "300000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x5cb59A8D8E9DE5FDf39C709324B4c86AB90F534B",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 10
     },
     {
       "name": "AUTONOMOUS APE",
@@ -168,10 +182,14 @@
       "maxSupply": 5000,
       "freeAllocation": 1500,
       "paidAllocation": 3500,
-      "freeLimitPerWallet": 2,
-      "paidLimitPerWallet": 10,
       "priceWei": "230000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x363E17839be78c302027A483b0AE685B6Ce623c6",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 10,
+      "deploymentTransaction": "0x30bb77599292dd5a73041942c08060a5cd60bdb2bbe488f2c157e5dcb7c91150"
     },
     {
       "name": "DDG",
@@ -179,10 +197,14 @@
       "maxSupply": 10000,
       "freeAllocation": 500,
       "paidAllocation": 9500,
-      "freeLimitPerWallet": 2,
-      "paidLimitPerWallet": 10,
       "priceWei": "90000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x44aFd1A7269b2d981c722F293057F79B37a964Aa",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 10,
+      "deploymentTransaction": "0xf5923f95845ef7d09cf8f4b08adb26d10b1782e01c97f2bcf02f04fdde3e9cfb"
     },
     {
       "name": "PLUGGINS",
@@ -190,10 +212,14 @@
       "maxSupply": 100000,
       "freeAllocation": 2000,
       "paidAllocation": 98000,
-      "freeLimitPerWallet": 10,
-      "paidLimitPerWallet": 100,
       "priceWei": "15000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x0572a9D4AeA6a0e8CA7294C4ea23497326B81578",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 100,
+      "deploymentTransaction": "0x8c1c0958b6738201b80c25b27becd018b79671b6af6a39d71c98c2938f8e7125"
     },
     {
       "name": "HATERZ",
@@ -201,10 +227,14 @@
       "maxSupply": 10000,
       "freeAllocation": 2000,
       "paidAllocation": 8000,
-      "freeLimitPerWallet": 2,
-      "paidLimitPerWallet": 10,
       "priceWei": "120000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x9Fe10f2A0DBD6bd63EdDD3fEB03c489B14a825e4",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 10,
+      "deploymentTransaction": "0x79438ae25fd1d900b4ebf93ab2395843ab3bfdbc63cdfc92a58d55c11889e6fa"
     },
     {
       "name": "MAGA",
@@ -212,10 +242,14 @@
       "maxSupply": 20000,
       "freeAllocation": 500,
       "paidAllocation": 19500,
-      "freeLimitPerWallet": 2,
-      "paidLimitPerWallet": 18,
       "priceWei": "80000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x9064bC862d5d5167c38bda2abB39C375A85Cc3Ca",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 18,
+      "deploymentTransaction": "0xac96dfddd7ba2b69b0b09b6b4fc97fde1f7ab430029a69fbbbcc767dd24cab0c"
     },
     {
       "name": "JTSK",
@@ -223,10 +257,14 @@
       "maxSupply": 4444,
       "freeAllocation": 1111,
       "paidAllocation": 3333,
-      "freeLimitPerWallet": 2,
-      "paidLimitPerWallet": 15,
       "priceWei": "90000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0xC26f2b1248952C2F3947c8637A28678cb828dEA9",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 15,
+      "deploymentTransaction": "0x493191b60251ecbe20d2571f745b2cc134e3010b317d4ad718e80db6dcfbacf4"
     },
     {
       "name": "YPPE",
@@ -234,10 +272,46 @@
       "maxSupply": 100000,
       "freeAllocation": 10000,
       "paidAllocation": 90000,
-      "freeLimitPerWallet": 10,
-      "paidLimitPerWallet": 100,
       "priceWei": "15000000000000",
-      "status": "pending_deployment"
+      "status": "deployed",
+      "contractAddress": "0x1B85De0aa003c4e0455Ebb218631707e40C40AF8",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 100,
+      "deploymentTransaction": "0x9587222bcc8ac61aa350897c820ef68cd08b6e62429c90e2715e67e6605e0a96"
+    },
+    {
+      "name": "THE FUTURE",
+      "symbol": "FUTURE",
+      "maxSupply": 1000,
+      "freeAllocation": 200,
+      "paidAllocation": 800,
+      "priceWei": "500000000000000",
+      "status": "deployed",
+      "contractAddress": "0x2B1C7c4b8D0a5956d7b9eF12a3DF831D81Fe95DD",
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 3,
+      "maxPerAgentId": 4,
+      "mintAdapter": "the-future"
+    },
+    {
+      "name": "AI SHIBA INU",
+      "symbol": "ASI",
+      "maxSupply": 444,
+      "freeAllocation": 0,
+      "paidAllocation": 444,
+      "priceWei": "1500000000000000",
+      "status": "deployed",
+      "contractAddress": "0x68B4edd110676a3115678Ec2E1142fAB650b4B50",
+      "agentIdRequired": true,
+      "agentIdContract": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "paidLimitPerWallet": 10,
+      "mintAdapter": "ai-shiba-inu",
+      "rewardToken": "0x3891284B55F6EE9B725534e39D1f21Bc06D12051",
+      "rewardPerNft": "1000000"
     },
     {
       "name": "BINANCE HACK",
