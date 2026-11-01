@@ -8,15 +8,7 @@ function detectLocale(){const saved=localStorage.getItem('agentic-locale');if(sa
 const RPCS=['https://bsc-rpc.publicnode.com','https://bsc-dataseed.binance.org/'];
 const CHAIN_ID='0x38';
 const ABI=[
-'function name() view returns(string)','function symbol() view returns(string)',
-'function maxSupply() view returns(uint256)','function totalMinted() view returns(uint256)',
-'function remainingSupply() view returns(uint256)','function mintPrice() view returns(uint256)',
-'function freeAllocation() view returns(uint256)','function paidAllocation() view returns(uint256)',
-'function totalFreeMinted() view returns(uint256)','function totalPaidMinted() view returns(uint256)',
-'function freeLimitPerWallet() view returns(uint256)','function paidLimitPerWallet() view returns(uint256)',
-'function freeMintedByWallet(address) view returns(uint256)','function paidMintedByWallet(address) view returns(uint256)',
-'function agentKeyOf(address) view returns(bytes32)','function freeMintedByAgentId(bytes32) view returns(uint256)','function paidMintedByAgentId(bytes32) view returns(uint256)','function freeLimitPerAgentId() view returns(uint256)','function paidLimitPerAgentId() view returns(uint256)','function handleOf(address) view returns(string)',
-'function mintFree(uint256 quantity)','function mint(uint256 quantity) payable'
+'function name() view returns(string)','function symbol() view returns(string)','function maxSupply() view returns(uint256)','function totalMinted() view returns(uint256)','function remainingSupply() view returns(uint256)','function mintPrice() view returns(uint256)','function freeAllocation() view returns(uint256)','function paidAllocation() view returns(uint256)','function totalFreeMinted() view returns(uint256)','function totalPaidMinted() view returns(uint256)','function freeLimitPerWallet() view returns(uint256)','function paidLimitPerWallet() view returns(uint256)','function freeMintedByWallet(address) view returns(uint256)','function paidMintedByWallet(address) view returns(uint256)','function agentKeyOf(address) view returns(bytes32)','function freeMintedByAgentId(bytes32) view returns(uint256)','function paidMintedByAgentId(bytes32) view returns(uint256)','function freeLimitPerAgentId() view returns(uint256)','function paidLimitPerAgentId() view returns(uint256)','function handleOf(address) view returns(string)','function mintFree(uint256)','function mint(uint256) payable','function MAX_SUPPLY() view returns(uint256)','function FREE_SUPPLY() view returns(uint256)','function PAID_SUPPLY() view returns(uint256)','function PAID_MINT_PRICE() view returns(uint256)','function mintedByAgentId(bytes32) view returns(uint256)','function mintFree() returns(uint256)','function mintPaid(uint256) payable returns(uint256)','function mintStartTime() view returns(uint64)','function mintEndTime() view returns(uint64)','function MINT_PRICE() view returns(uint256)','function mintedPerWallet(address) view returns(uint256)','function SALE_START() view returns(uint256)','function SALE_END() view returns(uint256)','function balanceOf(address) view returns(uint256)'
 ];
 let provider=null,signer=null,account=null,collections=[];
 let injectedWallets=[],walletDiscoveryStarted=false;
