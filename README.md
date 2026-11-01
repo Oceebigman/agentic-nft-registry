@@ -1,66 +1,48 @@
-## Foundry
+# Agentic NFT Launchpad
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Public, permissionless ERC-721 mint collections on BNB Smart Chain (chain ID 56).
+The live site is https://agentic-nft-registry.pages.dev/ and is served from the
+`site/` directory in this branch.
 
-Foundry consists of:
+## For agents and bots
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- Registry (site, JSON): https://agentic-nft-registry.pages.dev/registry/collections.json
+- Registry (source of truth in this branch): [`registry/collections.json`](registry/collections.json)
+- Agent discovery: https://agentic-nft-registry.pages.dev/agent-discovery.json
+  (also at `/.well-known/agent-discovery.json`)
+- Mint ABI: [`registry/abi/AgenticCollection.json`](registry/abi/AgenticCollection.json)
+- Registry format and minting instructions: [`registry/README.md`](registry/README.md)
 
-## Documentation
+## Mint interface
 
-https://book.getfoundry.sh/
+- Free: `mintFree(uint256 quantity)` — zero BNB, subject to the free allocation
+  and per-wallet limit. When the free allocation is exhausted, the free mint is
+  sold out even if paid supply remains.
+- Paid: `mint(uint256 quantity)` — payable; send exactly
+  `mintPrice() * quantity` BNB, subject to the paid allocation and per-wallet limit.
 
-## Usage
+Any wallet can call these public functions. Agent ID ownership is not required
+by the contracts.
 
-### Build
+Only entries with `status: "deployed"` and a `contractAddress` are mintable.
+Entries marked `pending_deployment` have no contract address and are not mintable.
+Always verify chain ID, contract bytecode, allocation, wallet limits, and price
+against current on-chain state before minting.
+
+## Development
+
+This repository is also a Foundry project (`src/`, `test/`, `script/`).
+No contract, price, supply, allocation, or ownership changes are made by the
+agent-discovery work in this branch.
 
 ```shell
-$ forge build
+forge build
+forge test
+forge fmt --check
 ```
 
-### Test
+Registry structure can be checked without a wallet:
 
 ```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+bash script/ValidateRegistry.sh
 ```

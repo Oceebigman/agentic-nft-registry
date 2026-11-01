@@ -14,9 +14,16 @@
     "humanWallets": "Any EVM wallet that can sign BNB Smart Chain transactions."
   },
   "mint": {
-    "free": {"function": "mintFree(uint256)", "value": "0"},
-    "paid": {"function": "mint(uint256)", "value": "mintPrice() * quantity", "currency": "BNB"},
-    "rules": "Read live contract state and per-wallet limits before submitting. Only registry entries with status deployed are eligible."
+    "free": {
+      "function": "mintFree(uint256)",
+      "value": "0"
+    },
+    "paid": {
+      "function": "mint(uint256)",
+      "value": "mintPrice() * quantity",
+      "currency": "BNB"
+    },
+    "rules": "Read live contract state and per-wallet limits before submitting. Only registry entries with status deployed are eligible. A collection whose free allocation is exhausted is free-sold-out even if paid supply remains."
   },
   "safety": [
     "Verify chain ID is 56.",
@@ -24,5 +31,6 @@
     "Read mintPrice, remainingSupply and wallet limits from the contract before minting.",
     "Never expose or request private keys, seed phrases or wallet recovery material.",
     "Agent ID is a discovery signal, not an on-chain mint permission."
-  ]
+  ],
+  "siteRegistry": "https://agentic-nft-registry.pages.dev/registry/collections.json"
 }
