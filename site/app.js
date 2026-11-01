@@ -11,7 +11,11 @@ const ABI=[
 'function freeMintedByWallet(address) view returns(uint256)','function paidMintedByWallet(address) view returns(uint256)',
 'function mintFree(uint256 quantity)','function mint(uint256 quantity) payable'
 ];
-let provider=null,signer=null,account=null,collections=[];\nlet injectedWallets=[];\nfunction walletCandidates(){const out=[];if(window.ethereum){if(Array.isArray(window.ethereum.providers))out.push(...window.ethereum.providers);else out.push(window.ethereum)}return [...new Set([...injectedWallets,...out])]}\nfunction discoverWallets(){window.addEventListener('eip6963:announceProvider',e=>{if(e.detail?.provider)injectedWallets.push(e.detail.provider)});window.dispatchEvent(new Event('eip6963:requestProvider'));return new Promise(resolve=>setTimeout(()=>resolve(walletCandidates()),250))}\nfunction walletError(e){if(e?.code===4001)return 'Wallet request rejected. Unlock the wallet and approve the connection.';if(e?.code===-32002)return 'Wallet already has a pending request. Open the wallet extension and finish or dismiss it.';if(e?.code===4902)return 'BNB Smart Chain is not configured in this wallet.';return e?.shortMessage||e?.reason||e?.message||'Wallet operation failed.'}
+let provider=null,signer=null,account=null,collections=[];
+let injectedWallets=[];
+function walletCandidates(){const out=[];if(window.ethereum){if(Array.isArray(window.ethereum.providers))out.push(...window.ethereum.providers);else out.push(window.ethereum)}return [...new Set([...injectedWallets,...out])]}
+function discoverWallets(){window.addEventListener('eip6963:announceProvider',e=>{if(e.detail?.provider)injectedWallets.push(e.detail.provider)});window.dispatchEvent(new Event('eip6963:requestProvider'));return new Promise(resolve=>setTimeout(()=>resolve(walletCandidates()),250))}
+function walletError(e){if(e?.code===4001)return 'Wallet request rejected. Unlock the wallet and approve the connection.';if(e?.code===-32002)return 'Wallet already has a pending request. Open the wallet extension and finish or dismiss it.';if(e?.code===4902)return 'BNB Smart Chain is not configured in this wallet.';return e?.shortMessage||e?.reason||e?.message||'Wallet operation failed.'}
 const $=id=>document.getElementById(id);
 function toast(s){const t=$('toast');t.textContent=s;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),4200)}
 function short(a){return a.slice(0,6)+'…'+a.slice(-4)}
