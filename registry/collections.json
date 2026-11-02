@@ -448,6 +448,23 @@
       "paidLimitPerAgentId": 2,
       "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
       "deploymentTransactionHash": "0xe3b304815cb10294dd0d4d5c7e01d1fb287ad73ff0e44f2101dae37a32072675"
+    },
+    {
+      "name": "BASE AIRDROP",
+      "symbol": "BASE",
+      "maxSupply": 777,
+      "freeAllocation": 50,
+      "paidAllocation": 727,
+      "priceWei": "500000000000000",
+      "status": "deployed",
+      "contractAddress": "0xD040810902726F46c938f47dE6fea13Ba8E96A10",
+      "chainId": 56,
+      "agentIdRequired": true,
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "freeLimitPerAgentId": 1,
+      "paidLimitPerAgentId": 3,
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "deploymentTransactionHash": "0x9a5fc109718eab5ca82eb966c540a1fd37c84fc76c1ca9d2307df171c7c20159"
     }
   ]
 }
