@@ -25,3 +25,10 @@ See [`collections.json`](./collections.json).
 ## ABI
 
 See [`abi/AgenticCollection.json`](./abi/AgenticCollection.json).
+
+
+## Public paid editions (public-paid-v1)
+
+The ten new Scout/Founder collections use separate freeMintRequiresAgentId and paidMintRequiresAgentId flags. Free Scout claims require a registered ID; paid Founder minting is open to any wallet, including after a free claim. Paid purchases can be repeated, with 1–20 NFTs per transaction and no lifetime paid-wallet quota.
+
+Call quoteMint(quantity) for the exact payable value. Byte Punks has a fixed five-for-four batch offer; the other nine use flat pricing. Do not multiply mintPrice() by quantity for this adapter. ABI: [PublicPaidCollection.json](abi/PublicPaidCollection.json). Metadata JSON is generated on-chain, with fixed Scout and Founder images on IPFS.
