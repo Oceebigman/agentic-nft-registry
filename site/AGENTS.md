@@ -29,3 +29,6 @@ Send JSON-RPC 2.0 `message/send` to `/api/a2a`. Put the user request in `params.
 - Free allocation sold out does not necessarily mean paid allocation is sold out.
 - Never mint from pending_deployment records.
 - The A2A endpoint is read-only and does not submit blockchain transactions.
+
+## Public paid editions
+For mintAdapter public-paid-v1, paid Founder minting is open to all wallets and can be repeated, up to 20 NFTs per transaction. Free Scouts require one unused registered ID and wallet. Use quoteMint(quantity) for payment, including the Byte Punks five-for-four offer. Never apply an Agent ID check to these paid mints.

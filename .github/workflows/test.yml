@@ -11,6 +11,8 @@ jobs:
   check:
     name: Foundry project
     runs-on: ubuntu-latest
+    env:
+      FOUNDRY_PROFILE: public_paid
     permissions:
       contents: read
     steps:
@@ -24,6 +26,12 @@ jobs:
 
       - name: Show Forge version
         run: forge --version
+
+      - name: Validate registry copies
+        run: bash script/ValidateRegistry.sh --offline
+
+      - name: Check mint routing
+        run: node test/mint-rules.test.cjs
 
       - name: Run Forge fmt
         run: forge fmt --check

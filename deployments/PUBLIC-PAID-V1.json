@@ -1,0 +1,77 @@
+{
+  "chainId": 56,
+  "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+  "totalGasFeeWei": "1421089300000000",
+  "collections": [
+    {
+      "name": "Byte Punks",
+      "symbol": "BPUNK",
+      "contractAddress": "0xf7f329477603d6df2e89bdef41f82aa122c14a4f",
+      "deploymentTransactionHash": "0x98c987b4071211e4cca5a5928fa737d750d7abdf27e5af2f9c4d4a5361a87027",
+      "gasFeeWei": "142105450000000"
+    },
+    {
+      "name": "Bot Cats",
+      "symbol": "BCATS",
+      "contractAddress": "0x961f7999f616ee70252a6aff711584b9cdd9404c",
+      "deploymentTransactionHash": "0x2c2634ec0f7bf5201ce0f6b1633148fe89680bf176bdc78add7d4bb4d2a16b25",
+      "gasFeeWei": "142100050000000"
+    },
+    {
+      "name": "Prompt Dogs",
+      "symbol": "PDOG",
+      "contractAddress": "0x26d47f91a72035778a768fbc7d6f78949f9e5a2b",
+      "deploymentTransactionHash": "0x0f5b679b35565caefd43e7ed1ebeefb8163565293532eee76beba5924233bbfe",
+      "gasFeeWei": "142106650000000"
+    },
+    {
+      "name": "Neural Frogs",
+      "symbol": "NFRG",
+      "contractAddress": "0xcdef985c3b7179880b78db8dd3e266ec97420f5c",
+      "deploymentTransactionHash": "0xe2440ff9b5427e82f9ce5d54990da6d29914bc56ca8aa2aedf6efe6adc04c3ac",
+      "gasFeeWei": "142109050000000"
+    },
+    {
+      "name": "Agent Raccoons",
+      "symbol": "RACC",
+      "contractAddress": "0x3ff101ca8786a88aff24674380cd0e811e442797",
+      "deploymentTransactionHash": "0xf050e8e66b7aef6f8eb364f0fcb86ca8132b793e1baecb4fc5b55ca9eae749be",
+      "gasFeeWei": "142113850000000"
+    },
+    {
+      "name": "Chain Rascals",
+      "symbol": "RASC",
+      "contractAddress": "0x5606c2d70e390dd0ec0b0c3079d567063fad415c",
+      "deploymentTransactionHash": "0xca3c6a51119a112fbfa3edab148978fd433f86a43763dca1532d21c40d68a7fa",
+      "gasFeeWei": "142111450000000"
+    },
+    {
+      "name": "AI Gremlins",
+      "symbol": "GREML",
+      "contractAddress": "0x1dfc6d367d107921ceb93cd7f7fc7f50d553fa55",
+      "deploymentTransactionHash": "0x1cd11513aaa1a4b4dfe04699e57707af1ef61c1db8695c0de2a19d4629ee3fa2",
+      "gasFeeWei": "142106650000000"
+    },
+    {
+      "name": "Pixel Operators",
+      "symbol": "PXOP",
+      "contractAddress": "0x127f979e67383d882181fe6d408f30d954991317",
+      "deploymentTransactionHash": "0x515febee6965f3a8a964e70b32af1186cb60f23bd3937efdb5ad1aa4249058b2",
+      "gasFeeWei": "142115650000000"
+    },
+    {
+      "name": "Neural Nomads",
+      "symbol": "NNOM",
+      "contractAddress": "0x0594be0719f16bd2e30b3b238f4336b0ab891dad",
+      "deploymentTransactionHash": "0x6622eb546db8bd4886cd63310799d6ae399b5f87f4548b061344e79400c8d5a3",
+      "gasFeeWei": "142111450000000"
+    },
+    {
+      "name": "Genesis Bots",
+      "symbol": "GBOT",
+      "contractAddress": "0xddf44ae265172ab3141ecabaa3d823edd9129581",
+      "deploymentTransactionHash": "0xdf2701c269d4a7c1d03ebed58eaff8f258bb1e7f9e1b3f8cd1f8995b9aba5831",
+      "gasFeeWei": "142109050000000"
+    }
+  ]
+}

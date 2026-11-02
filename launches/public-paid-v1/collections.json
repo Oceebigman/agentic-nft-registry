@@ -1,0 +1,441 @@
+{
+  "version": "1.0.0",
+  "chainId": 56,
+  "assetsVerified": true,
+  "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+  "agentRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+  "contract": "PublicPaidCollection",
+  "collections": [
+    {
+      "slug": "byte-punks",
+      "name": "Byte Punks",
+      "symbol": "BPUNK",
+      "description": "Byte Punks: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 777,
+      "freeAllocation": 77,
+      "paidAllocation": 700,
+      "priceWei": "50000000000000",
+      "bundleDiscountEnabled": true,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/byte-punks-scout.png",
+          "rawBlockCid": "bafkreia6x4fqfidg4g5tvwfbqv526foi4y6jhuccq7iaqi235eiqmvrboy",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/byte-punks-scout.png",
+          "sha256": "1ebf0b02a066e1bb3ad8a1857baf15c8e63c93d04287d008235be91106562176",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2556017
+        },
+        "founder": {
+          "file": "images/byte-punks-founder.png",
+          "rawBlockCid": "bafkreiar6ip2y3izuvaopvz3z34onlu57mqwbeuv3p2i7kfw32ta7xgmmm",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/byte-punks-founder.png",
+          "sha256": "11f21fac6d19a540e7d73bcef8e6ae9dfb21609295dbf48fa8b6dea60fdccc63",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2449743
+        }
+      },
+      "quotesWei": {
+        "1": "50000000000000",
+        "3": "150000000000000",
+        "5": "200000000000000",
+        "20": "800000000000000"
+      }
+    },
+    {
+      "slug": "bot-cats",
+      "name": "Bot Cats",
+      "symbol": "BCATS",
+      "description": "Bot Cats: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 888,
+      "freeAllocation": 88,
+      "paidAllocation": 800,
+      "priceWei": "50000000000000",
+      "bundleDiscountEnabled": false,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/bot-cats-scout.png",
+          "rawBlockCid": "bafkreiawuzwhp2hosgvz4c4accsofv7vfkwgfghfr4qgoibus2upgiahwy",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/bot-cats-scout.png",
+          "sha256": "16a66c77e8ee91ab9e0b8010a4e2d7f52aac6298e58f2067203496a8f32007b6",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 3042256
+        },
+        "founder": {
+          "file": "images/bot-cats-founder.png",
+          "rawBlockCid": "bafkreig5bkgks6gajzhadtutkry74b5augbdbosq3awncevhmcx6h7b7si",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/bot-cats-founder.png",
+          "sha256": "dd0a8ca978c04e4e01ce935471fe07a0a18230ba50d82cd112a760afe3fc3f92",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2773638
+        }
+      },
+      "quotesWei": {
+        "1": "50000000000000",
+        "3": "150000000000000",
+        "5": "250000000000000",
+        "20": "1000000000000000"
+      }
+    },
+    {
+      "slug": "prompt-dogs",
+      "name": "Prompt Dogs",
+      "symbol": "PDOG",
+      "description": "Prompt Dogs: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 1000,
+      "freeAllocation": 100,
+      "paidAllocation": 900,
+      "priceWei": "50000000000000",
+      "bundleDiscountEnabled": false,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/prompt-dogs-scout.png",
+          "rawBlockCid": "bafkreibdzynvqio7iiqgh4p6kuncimkyexttgomj2e43s4wqhyyqbdfuaa",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/prompt-dogs-scout.png",
+          "sha256": "23ce1b5821df422063f1fe551a24315825e7333989d139b972d03e31008cb400",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 3306613
+        },
+        "founder": {
+          "file": "images/prompt-dogs-founder.png",
+          "rawBlockCid": "bafkreibj3bbl6qe6rfx3hh6szhyenqdkpeslweb72nntktf6bhs7wlkxuq",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/prompt-dogs-founder.png",
+          "sha256": "29d842bf409e896fb39fd2c9f046c06a7924bb103fd35b354cbe09e5fb2d57a4",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2892396
+        }
+      },
+      "quotesWei": {
+        "1": "50000000000000",
+        "3": "150000000000000",
+        "5": "250000000000000",
+        "20": "1000000000000000"
+      }
+    },
+    {
+      "slug": "neural-frogs",
+      "name": "Neural Frogs",
+      "symbol": "NFRG",
+      "description": "Neural Frogs: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 777,
+      "freeAllocation": 77,
+      "paidAllocation": 700,
+      "priceWei": "50000000000000",
+      "bundleDiscountEnabled": false,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/neural-frogs-scout.png",
+          "rawBlockCid": "bafkreicy6qkisowciqdumacuv3iyfjulvjeip623hlbymswa23ojnfssau",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/neural-frogs-scout.png",
+          "sha256": "58f414893ac24407460054aed182a68baa4887fb5b3ac3864ac0d6dc96965205",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 3343998
+        },
+        "founder": {
+          "file": "images/neural-frogs-founder.png",
+          "rawBlockCid": "bafkreibkhucs7ubxrgnfpe225ma4dpprgnzesrbwvy2wrpry6w4sua4qna",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/neural-frogs-founder.png",
+          "sha256": "2a3d052fd037899a57935aeb01c1bdf13372494436ae3568be38f5b92a039068",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 3069099
+        }
+      },
+      "quotesWei": {
+        "1": "50000000000000",
+        "3": "150000000000000",
+        "5": "250000000000000",
+        "20": "1000000000000000"
+      }
+    },
+    {
+      "slug": "agent-raccoons",
+      "name": "Agent Raccoons",
+      "symbol": "RACC",
+      "description": "Agent Raccoons: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 1000,
+      "freeAllocation": 100,
+      "paidAllocation": 900,
+      "priceWei": "50000000000000",
+      "bundleDiscountEnabled": false,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/agent-raccoons-scout.png",
+          "rawBlockCid": "bafkreib2kz5a347acz76jw4sibjvbjqfjymvq5isyfy3nls726rmcjvjhm",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/agent-raccoons-scout.png",
+          "sha256": "3a567a0df3e0167fe4db92405350a6054e19587512c171b6ae5fd7a2c126a93b",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 3094178
+        },
+        "founder": {
+          "file": "images/agent-raccoons-founder.png",
+          "rawBlockCid": "bafkreifz5bj3peynxndtzmcgid44s6sg5h7a7coqc2kgb7vsrphkydwfmq",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/agent-raccoons-founder.png",
+          "sha256": "b9e853b7930dbb473cb04640f9c97a46e9fe0f89d0169460feb28bceac0ec564",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 3098695
+        }
+      },
+      "quotesWei": {
+        "1": "50000000000000",
+        "3": "150000000000000",
+        "5": "250000000000000",
+        "20": "1000000000000000"
+      }
+    },
+    {
+      "slug": "chain-rascals",
+      "name": "Chain Rascals",
+      "symbol": "RASC",
+      "description": "Chain Rascals: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 888,
+      "freeAllocation": 88,
+      "paidAllocation": 800,
+      "priceWei": "50000000000000",
+      "bundleDiscountEnabled": false,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/chain-rascals-scout.png",
+          "rawBlockCid": "bafkreif4yhorbtm2smdxkaehaj7upo6vtbg55nifulpaqqx3ek3dyuykza",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/chain-rascals-scout.png",
+          "sha256": "bcc1dd10cd9a9307750087027f47bbd5984ddeb505a2de0842fb22b63c530ac8",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 3107066
+        },
+        "founder": {
+          "file": "images/chain-rascals-founder.png",
+          "rawBlockCid": "bafkreiakf3tfvwamfbz6boz2sdnk5n25luunu62qfsxwihwjwgn2vum4ai",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/chain-rascals-founder.png",
+          "sha256": "0a2ee65ad80c2873e0bb3a90daaeb75d5d28da7b502caf641ec9b19baad19c02",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2762204
+        }
+      },
+      "quotesWei": {
+        "1": "50000000000000",
+        "3": "150000000000000",
+        "5": "250000000000000",
+        "20": "1000000000000000"
+      }
+    },
+    {
+      "slug": "ai-gremlins",
+      "name": "AI Gremlins",
+      "symbol": "GREML",
+      "description": "AI Gremlins: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 777,
+      "freeAllocation": 77,
+      "paidAllocation": 700,
+      "priceWei": "80000000000000",
+      "bundleDiscountEnabled": false,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/ai-gremlins-scout.png",
+          "rawBlockCid": "bafkreibs4ovyftct4cfq4bl3utwvf4pxvi5krkw5ydamfjm457c4w5kevy",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/ai-gremlins-scout.png",
+          "sha256": "32e3ab82cc53e08b0e057ba4ed52f1f7aa3aa8aaddc0c0c2a59cefc5cb7544ae",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 3210686
+        },
+        "founder": {
+          "file": "images/ai-gremlins-founder.png",
+          "rawBlockCid": "bafkreifbo6jomm2lfzjfchalg2bw6bdi33t3nrbd42rckwciwsujq4nhe4",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/ai-gremlins-founder.png",
+          "sha256": "a17792e6334b2e52511c0b36836f0468dee7b6c423e6a2255848b4a89871a727",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2835859
+        }
+      },
+      "quotesWei": {
+        "1": "80000000000000",
+        "3": "240000000000000",
+        "5": "400000000000000",
+        "20": "1600000000000000"
+      }
+    },
+    {
+      "slug": "pixel-operators",
+      "name": "Pixel Operators",
+      "symbol": "PXOP",
+      "description": "Pixel Operators: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 555,
+      "freeAllocation": 55,
+      "paidAllocation": 500,
+      "priceWei": "80000000000000",
+      "bundleDiscountEnabled": false,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/pixel-operators-scout.png",
+          "rawBlockCid": "bafkreihdme5yza6sf6vwoqyjjjqx4wuk3l6szzd26fguptzulbkie6d5aa",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/pixel-operators-scout.png",
+          "sha256": "e3613b8c83d22fab6743094a617e5a8adafd2ce47af14d47cf34585482787d00",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2979970
+        },
+        "founder": {
+          "file": "images/pixel-operators-founder.png",
+          "rawBlockCid": "bafkreidph5jxzuj7ovfarxbilfnt6ltlmq6nvp5bet2zjtl5teos77reky",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/pixel-operators-founder.png",
+          "sha256": "6f3f537cd13f754a08dc28595b3f2e6b643cdabfa124f594cd7d991d2ffe2456",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2650993
+        }
+      },
+      "quotesWei": {
+        "1": "80000000000000",
+        "3": "240000000000000",
+        "5": "400000000000000",
+        "20": "1600000000000000"
+      }
+    },
+    {
+      "slug": "neural-nomads",
+      "name": "Neural Nomads",
+      "symbol": "NNOM",
+      "description": "Neural Nomads: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 555,
+      "freeAllocation": 55,
+      "paidAllocation": 500,
+      "priceWei": "120000000000000",
+      "bundleDiscountEnabled": false,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/neural-nomads-scout.png",
+          "rawBlockCid": "bafkreicwmzr5gwj7jdlwofvwvcfayik3eo2lsrexby7k5ei5w4qv45qq7u",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/neural-nomads-scout.png",
+          "sha256": "566663d3593f48d76716b6a88a0c215b23b4b944970e3eae911db7215e7610fd",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2987788
+        },
+        "founder": {
+          "file": "images/neural-nomads-founder.png",
+          "rawBlockCid": "bafkreifftx6el57vvf2rpezrit2hmtoprjg6rquvfufghyrlvwu4a3woji",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/neural-nomads-founder.png",
+          "sha256": "a59dfc45f7f5a97517933144f4764dcf8a4de8c2952d0a63e22bada9c06ece4a",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 3038060
+        }
+      },
+      "quotesWei": {
+        "1": "120000000000000",
+        "3": "360000000000000",
+        "5": "600000000000000",
+        "20": "2400000000000000"
+      }
+    },
+    {
+      "slug": "genesis-bots",
+      "name": "Genesis Bots",
+      "symbol": "GBOT",
+      "description": "Genesis Bots: original AI-created collectible portrait editions. Scout is a free registered-ID claim; Founder is the publicly paid edition. Artwork is shared within each edition; every NFT has a unique serial and a permanent edition trait.",
+      "maxSupply": 333,
+      "freeAllocation": 33,
+      "paidAllocation": 300,
+      "priceWei": "200000000000000",
+      "bundleDiscountEnabled": false,
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerAgentId": 1,
+      "freeLimitPerWallet": 1,
+      "paidLifetimeWalletLimit": null,
+      "maxMintPerTransaction": 20,
+      "images": {
+        "scout": {
+          "file": "images/genesis-bots-scout.png",
+          "rawBlockCid": "bafkreibkazdcx7usffsuqf6vr5s345ochkmchvezh7aq3wdrpaqtcsxjba",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/genesis-bots-scout.png",
+          "sha256": "2a06462bfe9229654817d58f65be75c23a9823d4993fc10dd8717821314ae908",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2858241
+        },
+        "founder": {
+          "file": "images/genesis-bots-founder.png",
+          "rawBlockCid": "bafkreibga4d463hlvo7k6y2jjf5ov3jwxofq3y3mkoh6syaa3mocqhxxg4",
+          "uri": "ipfs://bafybeieu7emivsxn5hjezvz4fn75wjwnip4c2gu7cxc7ryksop4lmok7ey/genesis-bots-founder.png",
+          "sha256": "260707cf6cebabbeaf6349497aeaed36bb8b0de36c538fe96000db1c281ef737",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 2789485
+        }
+      },
+      "quotesWei": {
+        "1": "200000000000000",
+        "3": "600000000000000",
+        "5": "1000000000000000",
+        "20": "4000000000000000"
+      }
+    }
+  ],
+  "assetsVerifiedAt": "2026-11-02T13:30:35.565435+00:00"
+}

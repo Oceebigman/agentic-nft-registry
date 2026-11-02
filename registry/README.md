@@ -42,3 +42,15 @@ A collection can be free-sold-out while paid minting is still open. Compare
 `totalFreeMinted` against `freeAllocation` (free remaining) and
 `totalPaidMinted` against `paidAllocation` (paid remaining) on-chain; do not
 infer free availability from total `remainingSupply` alone.
+
+
+## Public paid editions (public-paid-v1)
+
+These entries use separate `freeMintRequiresAgentId` and `paidMintRequiresAgentId`
+flags. Free Scout claims require an ID; paid Founder mints are open to every
+wallet, including after a free claim. Paid purchases have no lifetime wallet
+quota and permit 1-20 NFTs per transaction. Always call `quoteMint(quantity)`
+for the exact payable value. Byte Punks has a fixed five-for-four batch offer;
+the other nine collections use flat pricing. Do not multiply `mintPrice` by
+quantity for this adapter. ABI: `registry/abi/PublicPaidCollection.json`.
+Images and edition traits are fixed; token metadata JSON is generated on-chain.

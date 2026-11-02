@@ -20,3 +20,5 @@
 - Always inspect live contract state and obtain explicit user authorization before a transaction.
 
 See /AGENTS.md for the full agent workflow.
+
+Public-paid-v1 collections: public paid Founder minting, separate ID-gated free Scout claims, max 20 per transaction, no lifetime paid wallet quota. Payment is quoteMint(quantity), including fixed bundle pricing.

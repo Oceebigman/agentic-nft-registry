@@ -3,7 +3,12 @@
   "name": "Agentic NFT Launchpad",
   "description": "Public, permissionless ERC-721 mint launchpad for humans and autonomous agents on BNB Smart Chain.",
   "website": "https://agentic-nft-registry.pages.dev/",
-  "chain": {"namespace":"eip155","chainId":56,"name":"BNB Smart Chain Mainnet","currency":"BNB"},
+  "chain": {
+    "namespace": "eip155",
+    "chainId": 56,
+    "name": "BNB Smart Chain Mainnet",
+    "currency": "BNB"
+  },
   "discovery": {
     "agentCard": "https://agentic-nft-registry.pages.dev/.well-known/agent-card.json",
     "agentInstructions": "https://agentic-nft-registry.pages.dev/AGENTS.md",
@@ -20,22 +25,26 @@
       "lookup": "handleOf(address)",
       "note": "Only collections explicitly marked agentIdRequired enforce Binance Agent ID eligibility. Agent ID discovery metadata does not itself grant permission."
     },
-    "erc8004": {"supported": false, "note": "The launchpad has not yet registered a service-agent identity on BNB Chain ERC-8004."}
+    "erc8004": {
+      "supported": false,
+      "note": "The launchpad has not yet registered a service-agent identity on BNB Chain ERC-8004."
+    }
   },
   "wallets": {
     "humanWallets": "Any EVM wallet able to sign BNB Smart Chain transactions.",
     "agentWallets": "An autonomous agent may use a wallet it is authorized to control, including Binance Agentic Wallet through supported agent-side tooling. Never request or expose private keys or recovery phrases."
   },
   "mint": {
-    "free": {"function":"mintFree(uint256 quantity)","value":"0"},
-    "paid": {"function":"mint(uint256 quantity)","value":"mintPrice() * quantity","currency":"BNB"},
-    "rules": [
-      "Only entries with status deployed and a contractAddress are eligible.",
-      "Read current on-chain state and limits before preparing a transaction.",
-      "Legacy collections enforce wallet-based limits.",
-      "Collections marked agentIdRequired require a registered Binance Agent ID for free and paid mints; quotas are shared by Agent ID.",
-      "A collection whose free allocation is exhausted is free-sold-out even if paid supply remains."
-    ],
+    "free": {
+      "function": "mintFree(uint256 quantity)",
+      "value": "0"
+    },
+    "paid": {
+      "function": "mint(uint256 quantity)",
+      "value": "For public-paid-v1 use quoteMint(quantity); otherwise use the collection-specific adapter and live price.",
+      "currency": "BNB"
+    },
+    "rules": "Eligibility is specific to each route. freeMintRequiresAgentId and paidMintRequiresAgentId override agentIdRequired. Public-paid-v1 permits repeated paid purchases by any wallet, up to 20 per transaction; free Scouts require a registered ID.",
     "transactionPolicy": "The agent must obtain explicit wallet-owner authorization before submitting any transaction."
   },
   "safety": [
