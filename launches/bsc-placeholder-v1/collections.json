@@ -1,0 +1,832 @@
+{
+  "chainId": 56,
+  "placeholderMode": true,
+  "deployer": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+  "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+  "agentRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+  "collections": [
+    {
+      "name": "Circuit Capybaras",
+      "symbol": "CCAP",
+      "description": "Circuit Capybaras: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 5000,
+      "freeAllocation": 1500,
+      "paidAllocation": 3500,
+      "priceWei": "200000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0xb2dd7a694eb8f85b92074cf8070e615a4e84766c",
+      "deploymentTransaction": "0x3e6daa603c5892e7f64d64372c51d5536c1209fea912485c7b06d59e6ce78bb9",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0xb2dd7a694eb8f85b92074cf8070e615a4e84766c",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "circuit-capybaras",
+      "deploymentTransactionHash": "0x3e6daa603c5892e7f64d64372c51d5536c1209fea912485c7b06d59e6ce78bb9"
+    },
+    {
+      "name": "Neon Badgers",
+      "symbol": "NBAD",
+      "description": "Neon Badgers: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 2400,
+      "freeAllocation": 480,
+      "paidAllocation": 1920,
+      "priceWei": "500000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x662e144afef030e6e24236337c72fa3a53c15793",
+      "deploymentTransaction": "0x72d218b415cf68d9ede8794c746a2d49fa7f13b61a1b132a7f98e7a3da609ecd",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x662e144afef030e6e24236337c72fa3a53c15793",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "neon-badgers",
+      "deploymentTransactionHash": "0x72d218b415cf68d9ede8794c746a2d49fa7f13b61a1b132a7f98e7a3da609ecd"
+    },
+    {
+      "name": "Byte Otters",
+      "symbol": "BOTR",
+      "description": "Byte Otters: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 8000,
+      "freeAllocation": 3200,
+      "paidAllocation": 4800,
+      "priceWei": "300000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x654461557a3ca8397ea21ba04a06a65bec03b4ba",
+      "deploymentTransaction": "0x8b54c7e64b11d85bb2b953a285284d42a3c010042de2fb8f19fadf2601867e15",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x654461557a3ca8397ea21ba04a06a65bec03b4ba",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "byte-otters",
+      "deploymentTransactionHash": "0x8b54c7e64b11d85bb2b953a285284d42a3c010042de2fb8f19fadf2601867e15"
+    },
+    {
+      "name": "Chrome Mantis",
+      "symbol": "CMNT",
+      "description": "Chrome Mantis: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 1000,
+      "freeAllocation": 100,
+      "paidAllocation": 900,
+      "priceWei": "900000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x602c42f4a82ddb60cde5b35c609163b615d797b2",
+      "deploymentTransaction": "0xa24527d6d56d0d9e24010caca783193e771042aa32b69ebd86486594ac31a011",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x602c42f4a82ddb60cde5b35c609163b615d797b2",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "chrome-mantis",
+      "deploymentTransactionHash": "0xa24527d6d56d0d9e24010caca783193e771042aa32b69ebd86486594ac31a011"
+    },
+    {
+      "name": "Signal Owls",
+      "symbol": "SOWL",
+      "description": "Signal Owls: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 3600,
+      "freeAllocation": 900,
+      "paidAllocation": 2700,
+      "priceWei": "600000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0xffe8ed361ce18e9fa7c418c39272e1d9186cfdda",
+      "deploymentTransaction": "0xb142eee82b95b8da5df542a30fadf9a56ea78cf7dc4ea574041c9221c2a07d7c",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0xffe8ed361ce18e9fa7c418c39272e1d9186cfdda",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "signal-owls",
+      "deploymentTransactionHash": "0xb142eee82b95b8da5df542a30fadf9a56ea78cf7dc4ea574041c9221c2a07d7c"
+    },
+    {
+      "name": "Quantum Geckos",
+      "symbol": "QGKO",
+      "description": "Quantum Geckos: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 6000,
+      "freeAllocation": 2100,
+      "paidAllocation": 3900,
+      "priceWei": "400000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0xf768e56d779263235ad235c5cc0f729779406cc7",
+      "deploymentTransaction": "0xf77870482c743f7ba4f42526ffb7a24507e802af931611112d89f6504951c6b7",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0xf768e56d779263235ad235c5cc0f729779406cc7",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "quantum-geckos",
+      "deploymentTransactionHash": "0xf77870482c743f7ba4f42526ffb7a24507e802af931611112d89f6504951c6b7"
+    },
+    {
+      "name": "Copper Kitsune",
+      "symbol": "CKIT",
+      "description": "Copper Kitsune: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 1800,
+      "freeAllocation": 270,
+      "paidAllocation": 1530,
+      "priceWei": "800000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x10bcfe1d7dc1416067caf371eaf9a0bf4b0a49ee",
+      "deploymentTransaction": "0x7fadb5c99b3dca17b10ba04193d106eb5b7f85601b5706dd54fe2d29cb572293",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x10bcfe1d7dc1416067caf371eaf9a0bf4b0a49ee",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "copper-kitsune",
+      "deploymentTransactionHash": "0x7fadb5c99b3dca17b10ba04193d106eb5b7f85601b5706dd54fe2d29cb572293"
+    },
+    {
+      "name": "Packet Penguins",
+      "symbol": "PPNG",
+      "description": "Packet Penguins: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 10000,
+      "freeAllocation": 4000,
+      "paidAllocation": 6000,
+      "priceWei": "200000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x1c499b9dd65e3cbfc854e52a5d7208e36f802083",
+      "deploymentTransaction": "0x692d65e0636359cadaf2a8af78b1733532d04d0613755e5d9358e959f12e11c0",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x1c499b9dd65e3cbfc854e52a5d7208e36f802083",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "packet-penguins",
+      "deploymentTransactionHash": "0x692d65e0636359cadaf2a8af78b1733532d04d0613755e5d9358e959f12e11c0"
+    },
+    {
+      "name": "Orbit Axolotls",
+      "symbol": "OAXO",
+      "description": "Orbit Axolotls: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 2800,
+      "freeAllocation": 560,
+      "paidAllocation": 2240,
+      "priceWei": "700000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0xe1ef6f4acbfe2d257c135b644fa4bfdd498536e7",
+      "deploymentTransaction": "0x9b6ddd52090669fca215070a8e85f12c3a38fc7f44f9822166ef3be45218f655",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0xe1ef6f4acbfe2d257c135b644fa4bfdd498536e7",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "orbit-axolotls",
+      "deploymentTransactionHash": "0x9b6ddd52090669fca215070a8e85f12c3a38fc7f44f9822166ef3be45218f655"
+    },
+    {
+      "name": "Kernel Koalas",
+      "symbol": "KKLA",
+      "description": "Kernel Koalas: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 7500,
+      "freeAllocation": 2250,
+      "paidAllocation": 5250,
+      "priceWei": "300000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x2725aaa76033e609d2a71078bedd7c340ae2e8d2",
+      "deploymentTransaction": "0xae9f49cd69601e043ec8e4d804222c46a62b19f0c08aea7241f30fba6b3ae61e",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x2725aaa76033e609d2a71078bedd7c340ae2e8d2",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "kernel-koalas",
+      "deploymentTransactionHash": "0xae9f49cd69601e043ec8e4d804222c46a62b19f0c08aea7241f30fba6b3ae61e"
+    },
+    {
+      "name": "Relay Ravens",
+      "symbol": "RRAV",
+      "description": "Relay Ravens: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 4200,
+      "freeAllocation": 1050,
+      "paidAllocation": 3150,
+      "priceWei": "500000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x25c833848b0c4faed5a1f2634743183989b16a66",
+      "deploymentTransaction": "0x602068f331a414a9ea6240f4dd48ddb8f875a140a7bc0466f311236120ef52c3",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x25c833848b0c4faed5a1f2634743183989b16a66",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "relay-ravens",
+      "deploymentTransactionHash": "0x602068f331a414a9ea6240f4dd48ddb8f875a140a7bc0466f311236120ef52c3"
+    },
+    {
+      "name": "Prism Pangolins",
+      "symbol": "PPAN",
+      "description": "Prism Pangolins: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 1600,
+      "freeAllocation": 240,
+      "paidAllocation": 1360,
+      "priceWei": "900000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x31e79835d370d042a5c45c743f95e63e63ed8356",
+      "deploymentTransaction": "0x3146d2626fd267829e9841f4ebf34fc64d350ac9eda5c46e4c4dfdb70fe4e5ba",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x31e79835d370d042a5c45c743f95e63e63ed8356",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "prism-pangolins",
+      "deploymentTransactionHash": "0x3146d2626fd267829e9841f4ebf34fc64d350ac9eda5c46e4c4dfdb70fe4e5ba"
+    },
+    {
+      "name": "Cache Chameleons",
+      "symbol": "CCHM",
+      "description": "Cache Chameleons: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 5500,
+      "freeAllocation": 1925,
+      "paidAllocation": 3575,
+      "priceWei": "400000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x962250573775e920f5969d0613a4a1aa2bc56677",
+      "deploymentTransaction": "0xb26106dfe173f089dd45eb2c412e2ce05dd462901cbfd6a3e373ddca55e3ff4c",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x962250573775e920f5969d0613a4a1aa2bc56677",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "cache-chameleons",
+      "deploymentTransactionHash": "0xb26106dfe173f089dd45eb2c412e2ce05dd462901cbfd6a3e373ddca55e3ff4c"
+    },
+    {
+      "name": "Lattice Lynx",
+      "symbol": "LLYX",
+      "description": "Lattice Lynx: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 2000,
+      "freeAllocation": 200,
+      "paidAllocation": 1800,
+      "priceWei": "800000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x05fe99a07be8455c907ad29b263094366a20503e",
+      "deploymentTransaction": "0xc7a68e95838ade9228e5c9a419ae354e28f6d2b27854840e5e7298e2c4944cd8",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x05fe99a07be8455c907ad29b263094366a20503e",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "lattice-lynx",
+      "deploymentTransactionHash": "0xc7a68e95838ade9228e5c9a419ae354e28f6d2b27854840e5e7298e2c4944cd8"
+    },
+    {
+      "name": "Glitch Turtles",
+      "symbol": "GTRT",
+      "description": "Glitch Turtles: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 9000,
+      "freeAllocation": 3600,
+      "paidAllocation": 5400,
+      "priceWei": "200000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x929cbbe57771d60b051916e95d415ffb20a15112",
+      "deploymentTransaction": "0x0bdaae4ca8ebbef9a414fa312bc4fbe908e7cd270afa094d6d6dc54fe9ba76f8",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x929cbbe57771d60b051916e95d415ffb20a15112",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "glitch-turtles",
+      "deploymentTransactionHash": "0x0bdaae4ca8ebbef9a414fa312bc4fbe908e7cd270afa094d6d6dc54fe9ba76f8"
+    },
+    {
+      "name": "Vector Vultures",
+      "symbol": "VVLT",
+      "description": "Vector Vultures: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 3200,
+      "freeAllocation": 640,
+      "paidAllocation": 2560,
+      "priceWei": "600000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0xc61b5c2c2399edada510e4ab6782fbcaf892365e",
+      "deploymentTransaction": "0x99b8f4c815efa4cf20d34fb2b7369cfa93ce037a969462ad220b5a1b0eaac7c0",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0xc61b5c2c2399edada510e4ab6782fbcaf892365e",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "vector-vultures",
+      "deploymentTransactionHash": "0x99b8f4c815efa4cf20d34fb2b7369cfa93ce037a969462ad220b5a1b0eaac7c0"
+    },
+    {
+      "name": "Nano Narwhals",
+      "symbol": "NNRW",
+      "description": "Nano Narwhals: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 6500,
+      "freeAllocation": 1950,
+      "paidAllocation": 4550,
+      "priceWei": "300000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x3c1d49451791ee8be33fd766a879b4a79b9a06e5",
+      "deploymentTransaction": "0x8971fea8e340eba3cf4300f4b76c25d22f488da2548a0bbbcf25baba176890a6",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x3c1d49451791ee8be33fd766a879b4a79b9a06e5",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "nano-narwhals",
+      "deploymentTransactionHash": "0x8971fea8e340eba3cf4300f4b76c25d22f488da2548a0bbbcf25baba176890a6"
+    },
+    {
+      "name": "Flux Fireflies",
+      "symbol": "FFLY",
+      "description": "Flux Fireflies: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 2600,
+      "freeAllocation": 650,
+      "paidAllocation": 1950,
+      "priceWei": "700000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x9e797a9a1c52f68d42eec69c49f26d00cbe11aff",
+      "deploymentTransaction": "0xbb6dcf294a39cfbaec2733394e39ebdfc5de73698b1bfb1e0199057a319c819b",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x9e797a9a1c52f68d42eec69c49f26d00cbe11aff",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "flux-fireflies",
+      "deploymentTransactionHash": "0xbb6dcf294a39cfbaec2733394e39ebdfc5de73698b1bfb1e0199057a319c819b"
+    },
+    {
+      "name": "Binary Bisons",
+      "symbol": "BBIS",
+      "description": "Binary Bisons: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 4800,
+      "freeAllocation": 720,
+      "paidAllocation": 4080,
+      "priceWei": "400000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0x11803efb3d0bde0e81f1a578f3d6a9f56d826f12",
+      "deploymentTransaction": "0x0c2c57f11e909c0ebd26d4f70d1ed1926af68ea70d4236701c75522bc638447d",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0x11803efb3d0bde0e81f1a578f3d6a9f56d826f12",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "binary-bisons",
+      "deploymentTransactionHash": "0x0c2c57f11e909c0ebd26d4f70d1ed1926af68ea70d4236701c75522bc638447d"
+    },
+    {
+      "name": "Echo Salamanders",
+      "symbol": "ESLM",
+      "description": "Echo Salamanders: placeholder collectible. Scout is the free Agent ID edition; Founder is the public paid edition. Placeholder media is permanent. No promised yield or future artwork.",
+      "maxSupply": 4000,
+      "freeAllocation": 1400,
+      "paidAllocation": 2600,
+      "priceWei": "500000000000000",
+      "bundleDiscountEnabled": false,
+      "images": {
+        "scout": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5TY291dDwvdGV4dD48L3N2Zz4="
+        },
+        "founder": {
+          "uri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzE3MTcxNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMjQwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyNCI+UExBQ0VIT0xERVI8L3RleHQ+PHRleHQgeD0iMjU2IiB5PSIyODAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIwIj5Gb3VuZGVyPC90ZXh0Pjwvc3ZnPg=="
+        }
+      },
+      "status": "deployed",
+      "mintAdapter": "public-paid-v1",
+      "contractType": "BscPlaceholderCollection",
+      "freeMintRequiresAgentId": true,
+      "paidMintRequiresAgentId": false,
+      "freeLimitPerWallet": 1,
+      "freeLimitPerAgentId": 1,
+      "maxMintPerTransaction": 20,
+      "paidLimitPerWallet": null,
+      "contractAddress": "0xb7f871d9582d058bb3b3d0c1ac7f1c2c27ac7fa1",
+      "deploymentTransaction": "0x354bc213ac73de25a717ccc00eed8e0f1a27c95219c3e09b180b507735c7118a",
+      "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "treasury": "0x9BdC0913fD08d459BE910492cc9e6525fbd783c5",
+      "owner": "0xecc3B1Db6BAff284957D81f5afd5A3441dcAFAFF",
+      "metadataMode": "permanent-onchain-placeholder",
+      "sourceVerification": "sourcify-match",
+      "sourceVerificationUrl": "https://repo.sourcify.dev/56/0xb7f871d9582d058bb3b3d0c1ac7f1c2c27ac7fa1",
+      "abi": "/registry/abi/BscPlaceholderCollection.json",
+      "chainId": 56,
+      "agentIdRequired": false,
+      "paidLifetimeWalletLimit": null,
+      "slug": "echo-salamanders",
+      "deploymentTransactionHash": "0x354bc213ac73de25a717ccc00eed8e0f1a27c95219c3e09b180b507735c7118a"
+    }
+  ],
+  "deploymentGasCostWei": "3279536200000000",
+  "remainingDeployerBalanceWei": "1780198450559424",
+  "liveConfigurationVerified": true
+}
